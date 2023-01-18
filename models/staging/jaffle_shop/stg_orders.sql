@@ -1,9 +1,3 @@
-{{
-  config(
-    materialized='view'
-  )
-}}
-
 
 select
     id as order_id,
@@ -12,3 +6,6 @@ select
     status
 
 from jaffle_shop_orders
+
+
+
